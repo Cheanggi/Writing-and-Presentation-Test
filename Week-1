@@ -22,5 +22,9 @@
 
 ## Day 2 : Git dan Github
 - Git dan Github merupakan tools wajib digunakan oleh programmer karena dapat berkolaborasi untuk mengerjakan proyek yang sama tanpa harus repot copy paste folder aplikasi yang terupdate.
-- git merupakan aplikasi yang dapat melacak setiap perubahan yang terjadi pada suatu folder atau file.
-- github merupakan platform berbasis cloud bagi para developer untuk menyimpan dan mengelola Git Repository.
+- git adalah software berbasis version control system (vcs) yang dapat melacak perubahan seluruh file atau repository suatu project.
+- github merupakan layanan cloud yang berguna untuk menyimpan dan mengelola Git Repository.
+
+### Perintah dasar Github
+- git config --global user.name "usename"
+- git config --global user.email "email"
