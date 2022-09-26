@@ -95,8 +95,33 @@ $git clone <link-repo>
 </html>
 ```
 
-- Tag HTML
+- Tag HTML yang populer
 
-
-
+  - Tag img: menampilkan gambar (jpg, jpeg, png)
+  - source (src) adalah attribute untuk memberitahukan sumber gambar.
+    ```html
+    <img src="file.jpg">
+    ```
+    
+  - Tag video : menampilkan video (mp4)
+  - Controls fungsinya untuk mengontrol video yang ditampilkan (tombol putar/jeda dan indikator menit)
+    ```html
+    <video controls>
+        <source src="file.mp4" type="video/mp4">
+    </video>
+    ```
+    
+  - Tag <Table> : untuk mendefinisikan pembuatan tabel
+  - Tag <tr>    : untuk mendefinisikan pembuatan baris pada tabel
+  - Tag <td>    : untuk membuat kolom atau sel di setiap baris pada tabel
+    ```html
+    <table border="1">
+        <tr>
+            <td>Baris ke 1 - Kolom ke 1</td>
+            <td>Baris ke 1 - Kolom ke 2</td>
+        </tr>
+    </table>
+    ```
+    
+    
 
