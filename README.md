@@ -111,9 +111,9 @@ $git clone <link-repo>
     </video>
     ```
     
-  - Tag <Table> : untuk mendefinisikan pembuatan tabel
-  - Tag <tr>    : untuk mendefinisikan pembuatan baris pada tabel
-  - Tag <td>    : untuk membuat kolom atau sel di setiap baris pada tabel
+  - Tag Table : untuk mendefinisikan pembuatan tabel
+  - Tag tr    : untuk mendefinisikan pembuatan baris pada tabel
+  - Tag td    : untuk membuat kolom atau sel di setiap baris pada tabel
     ```html
     <table border="1">
         <tr>
@@ -122,6 +122,15 @@ $git clone <link-repo>
         </tr>
     </table>
     ```
-    
-    
 
+- Semantic HTML : menggunakan elemen HTML sesuai dengan kebutuhan konten.
+    - Berikut element semantic HTML
+        - article : untuk membuat elemen artikel;
+        - aside : untuk membuat elemen bagian samping;
+        - footer : untuk membuat elemen bagian kaki dari web;
+        - header : untuk mebuat kepala kop dari web;
+        - main : untuk membuat elemen utama;
+        - nav : untuk membuat navigasi;
+        - section : untuk membuat bagian artikel
+
+- Untuk mempublish website yang sampai pada tahap deployment dapat menggunakan tools netlify.
