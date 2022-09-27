@@ -181,3 +181,10 @@ $git clone <link-repo>
     Write(nama, keterangan)
     ```
     
+### Intro to Js
+- JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif. 
+- type data : string, number, boolean, object, null, undefined
+- Operator js : Operator aritmatika, assigment operator, string operator, operator perbandingan dan operator logika
+    
+## Day 5 : Javascript Dasar Conditional dan Looping
+- 
