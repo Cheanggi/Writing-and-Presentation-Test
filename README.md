@@ -187,4 +187,35 @@ $git clone <link-repo>
 - Operator js : Operator aritmatika, assigment operator, string operator, operator perbandingan dan operator logika
     
 ## Day 5 : Javascript Dasar Conditional dan Looping
-- 
+- conditional artinya adalah persyaratan.
+  - Di JavaScript ada dua cara menulis perintah conditional, yaitu:
+    - Menggunakan if, else if dan else.
+    - Menggunakan switch dan case.
+    
+  - contoh penggunaan if...else
+    ```
+    let nilaEllo = 90;
+
+    if (nilaiEllo > 80) {
+      console.log("SANGAT MEMUASKAN");
+    } else if (nilaiAndi >= 60 && nilaiAndi <= 80) {
+      console.log("MEMUASKAN");
+    } else {
+      console.log("JANGAN MENYERAH, COBA LAGI!");
+    }
+     ```
+
+- Loop adalah sekumpulan kode yang akan dijalankan berulang kali sampai batas yang ditentukan.
+  - Ada 5 jenis loop di JavaScript, yaitu:
+    - for
+    - for...in
+    - for...of
+    - while
+    - do...while
+                                                 
+  - contoh penggunaan for loop.
+    ```
+    for (let i = 1; i <= 10; i++) {
+        console.log(i);
+    }
+    ```
