@@ -134,3 +134,36 @@ $git clone <link-repo>
         - section : untuk membuat bagian artikel
 
 - Untuk mempublish website yang sampai pada tahap deployment dapat menggunakan tools netlify.
+
+## Day 3 : CSS
+- Cascading Style Sheets (css) berfungsi untuk menambahkan design ke suatu halaman website di internet.
+- Menyisipkan css ke dalam file html ada 3 sebagai berikut :
+  - Inline CSS berfungsi untuk menyisipkan kode CSS langsung di dalam HTML element.
+  - Internal CSS berfungsi untuk menyisipkan kode CSS. Element <style> tersebut diletakkan di dalam element .
+  - Eksternal CSS berfungsi untuk menyisipkan kode CSS dengan cara membuat file CSS terpisah, menyambungkannya dengan file HTML menggunakan element <link>.
+    
+- Syntax Dasar CSS
+  - CSS Syntax adalah syntax yang digunakan untuk menunjuk atau memilih HTML element mana yang ingin diberi style (dihias). CSS syntax terdiri dari selector, property,     dan value.
+    ```css
+    selector {
+        property: value;
+    }
+    ```
+    
+- Styling CSS pada file HTML
+    ```css
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>
+          Website Pertamaku
+        </title>
+      </head>
+      <body>
+        <h1 style="color:blue;">Selamat Datang</h1>
+      </body>
+    </html>
+    ```
+    
+- Reponsive web menggunakan CSS
+    
