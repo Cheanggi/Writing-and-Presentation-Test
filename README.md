@@ -165,5 +165,19 @@ $git clone <link-repo>
     </html>
     ```
     
-- Reponsive web menggunakan CSS
+- Flexbox adalah cara untuk mengatur layout.
+- Flexbox memiliki kemampuan untuk menyesuaikan layout secara otomatis.
+    
+## Day 4 : Algoritma & Intro to js
+- Algoritma adalah tahapan yang dirancang secara berurutan atau terstruktur untuk menyelesaikan masalah pemrograman komputer.
+- Struktur data adalah cara dalam menyusun, mengatur serta menyimpan berbagai data program yang terdapat dalam suatu penyimpanan dalam sistem komputer. 
+- Algoritma sederhana kelulusan mahasiswa
+    ```
+    Read (nama, nilai)
+    If nilai >= 60 then
+    Keterangan = ‘lulus’
+    Else
+    Keterangan = ‘tidak lulus’
+    Write(nama, keterangan)
+    ```
     
