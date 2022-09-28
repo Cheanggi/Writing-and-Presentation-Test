@@ -180,6 +180,17 @@ $git clone <link-repo>
     Keterangan = ‘tidak lulus’
     Write(nama, keterangan)
     ```
+- Algoritma kelulusan mahasiswa dengan javascript.
+    ```
+    let nama = "Bagas";
+    let nilai = 70;
+
+    if ( nilai > 60 ) {
+        console.log(`${nama} lulus`);
+    }else {
+        console.log(`${nama} tidak lulus`);
+    }
+    ```
     
 ### Intro to Js
 - JavaScript adalah bahasa pemrograman yang digunakan dalam pengembangan website agar lebih dinamis dan interaktif. 
