@@ -1,4 +1,4 @@
-# Writing Summary Week 1
+# Writing Summary Week 6
 ## Day 1 : Unix Command Line
 - Shell merupakan program yang memproses perintah kemudian mengintruksikan ke sistem operasi.
 - Command Line Interface (CLI) merupakan jenis shell yang berbasis teks.
