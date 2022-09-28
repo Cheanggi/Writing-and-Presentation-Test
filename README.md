@@ -28,7 +28,7 @@
 ### Perintah dasar Github
 - Setup awal git
 ```git
-$git config --global user.name "usename"
+$git config --global user.name "username"
 $git config --global user.email "email"
 $git config --list
 ```
@@ -205,15 +205,14 @@ $git clone <link-repo>
     
   - contoh penggunaan if...else
     ```
-    let nilaEllo = 90;
+    let data = "saya adalah data";
 
-    if (nilaiEllo > 80) {
-      console.log("SANGAT MEMUASKAN");
-    } else if (nilaiAndi >= 60 && nilaiAndi <= 80) {
-      console.log("MEMUASKAN");
-    } else {
-      console.log("JANGAN MENYERAH, COBA LAGI!");
+    if (data) {
+        console.log("ada data");
+    }else {
+        console.log("tidak ada data");
     }
+
      ```
 
 - Loop adalah sekumpulan kode yang akan dijalankan berulang kali sampai batas yang ditentukan.
