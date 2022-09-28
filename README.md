@@ -174,7 +174,7 @@ $git clone <link-repo>
 - Algoritma sederhana kelulusan mahasiswa
     ```
     Read (nama, nilai)
-    If nilai >= 60 then
+    If nilai >= 65 then
     Keterangan = ‘lulus’
     Else
     Keterangan = ‘tidak lulus’
@@ -185,7 +185,7 @@ $git clone <link-repo>
     let nama = "Bagas";
     let nilai = 70;
 
-    if ( nilai > 60 ) {
+    if ( nilai >= 65 ) {
         console.log(`${nama} lulus`);
     }else {
         console.log(`${nama} tidak lulus`);
