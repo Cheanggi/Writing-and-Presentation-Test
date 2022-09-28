@@ -167,6 +167,9 @@ $git clone <link-repo>
     
 - Flexbox adalah cara untuk mengatur layout.
 - Flexbox memiliki kemampuan untuk menyesuaikan layout secara otomatis.
+  - Ada dua istilah penting saat belajar flexbox:
+    - container adalah element yang membungkus dan mengatur tampilan dari element di dalamnya,
+    - item adalah element dalam container yang diatur tampilannya.
     
 ## Day 4 : Algoritma & Intro to js
 - Algoritma adalah tahapan yang dirancang secara berurutan atau terstruktur untuk menyelesaikan masalah pemrograman komputer.
