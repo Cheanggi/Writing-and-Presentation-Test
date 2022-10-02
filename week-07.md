@@ -65,4 +65,18 @@
     ```
     
 ## Day 2 : 	Data Type Built in Prototype & Method
-- 
+- string
+  contoh :
+  let hewan = "tikus";
+  
+  console.log("ini adalah " + tikus); // cara menyisipkan variabel ke dalam string versi 1
+  cosole.log(`ini adalah ${hewan}`); // versi 2
+  
+  console.log(typeof hewan); //properti string => typeof : mengecek tipe data
+  console.log(hewan.length); // length : untuk mengetahui jumlah karakter kata
+  
+  console.log(hewan.toUpperCase()) // method adalah sebuah fungsi. toUpperCase()=> merapihkan karakter kata dengan huruf kapital.
+  console.log(hewan.toLowerCase()) // toLowerCase() : merapihkan karakter kata dengan huruf kecil.
+  console.log(hewan.charAt()) // charAt(index) : mengembalikan sebuah karakter berdasarkan pada posisi indexnya. index isi dengan number.
+  ```
+  
