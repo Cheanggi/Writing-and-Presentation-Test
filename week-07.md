@@ -57,4 +57,12 @@
   - Default paramaters digunakan untuk memberikan nilai awal/default pada parameter function.
   - contoh :
     ```
+    function greetOnWebsite(nama = 'stranger'){
+      return 'halo' + name;
+    }
+    console.log(greetOnWebsite('alma')); //output : halo alma
+    console.log(greetOnWebsite()); //output : halo stranger
+    ```
     
+## Day 2 : 	Data Type Built in Prototype & Method
+- 
