@@ -67,6 +67,7 @@
 ## Day 2 : 	Data Type Built in Prototype & Method
 - string
   contoh :
+  ```
   let hewan = "tikus";
   
   console.log("ini adalah " + tikus); // cara menyisipkan variabel ke dalam string versi 1
@@ -77,6 +78,13 @@
   
   console.log(hewan.toUpperCase()) // method adalah sebuah fungsi. toUpperCase()=> merapihkan karakter kata dengan huruf kapital.
   console.log(hewan.toLowerCase()) // toLowerCase() : merapihkan karakter kata dengan huruf kecil.
+  
   console.log(hewan.charAt()) // charAt(index) : mengembalikan sebuah karakter berdasarkan pada posisi indexnya. index isi dengan number.
+  consolo.log(hewan[1]) // versi 2
+  
+  console.log(hewan.include()) // include()) : pencarian, jika ditemukan nilainya true jika tidak nilainya false.
+  ```
+  
+- Number
   ```
   
