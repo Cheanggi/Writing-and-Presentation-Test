@@ -154,8 +154,8 @@
   
 ## Day 4 : DOM
 - Manipulating element
-  - innerHTML //sebuah atribut di dalam (objek) elemen HTML yang berisi string HTML (versi 1)
-  - innerText // semua element yang dimasukkan akan berupa string (versi 2)
+  - element.innerHTML //sebuah atribut di dalam (objek) elemen HTML yang berisi string HTML (versi 1)
+  - element.innerText // semua element yang dimasukkan akan berupa string (versi 2)
   ```
   let app = document.getElementById("app")
   
@@ -166,7 +166,7 @@
   ```
   
   - createElement() // membuat element menggunakan js
-  - append() // menyisipkan sebuah element
+  - element.append() // menyisipkan sebuah element
   - contoh :
     ```
     let p = document.createElement("p")
@@ -175,3 +175,29 @@
     app.append(p) //output : ini adalah paragraf
     ```
      
+  - element.appendChild () : menerima sebuah node
+  - contoh :
+    ```
+    let p2 = document.createElement("p2")
+    p2.innerText = "paragraf kedua"
+    
+    app.appendChild(p2) //output : paragraf kedua
+    ```
+  - element.remove () : menghapus element
+  - contoh :
+    ```
+    let end = document.getElementById("end")
+    end.remove() //output : element end berhasil dihapus
+    
+    let link = document.getElementsByClassName("link")[0]
+    console.log(link.attributes) // element.attributes :untuk mengecek attribute
+    console.log(link.getAttribute(" ")) // element.getAtrribute() : untuk megetahui isi attribute
+    element.setAttribute() // menambahkan attribute
+    ```
+    
+ - Manipulating style
+ - contoh :
+  ```
+  let link = document.getElementsByClassName("link")[0]
+  
+  link.style.color= "red"
