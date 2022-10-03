@@ -197,7 +197,15 @@
     
  - Manipulating style
  - contoh :
-  ```
-  let link = document.getElementsByClassName("link")[0]
+   ```
+   let link = document.getElementsByClassName("link")[0]
+
+   link.style.color = "black"
+   link.style.border = "1px solid black"
+   link.style.padding = "5px 20px"
+   link.style.backgroundColor = "bluesky"
+   ```
+
+## Day 5 : DOM - Event and Form
+
   
-  link.style.color= "red"
