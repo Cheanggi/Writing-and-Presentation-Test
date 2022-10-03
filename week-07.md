@@ -230,7 +230,18 @@
 - contoh form Sign in
   ```
   let loginForm = document.querySelector("#Sign-in")
-  let inputUsername = document.querySelector("#Username")
-  let inputPassword = document.querySelector("#Password")
-   
-   
+  let inputUsername = document.querySelector('#username')
+  let inputPassword = document.querySelector('#password')
+  
+  loginForm.addEventListener("submit", (event) => {
+  event.preventDefault()
+  console.log(inputUsername.value) //output : username
+  console.log(inputPassword.value) //output : password
+  //objek
+  let userLogin = {
+      username: inputUsername.value,
+      password: inputPassword.value
+  }
+  console.log(userLogin);
+  loginFrom.reset() // membersihkan form
+  ```
