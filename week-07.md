@@ -65,7 +65,7 @@
     ```
     
 ## Day 2 : 	Data Type Built in Prototype & Method
-- string
+### string
   contoh :
   ```
   let hewan = "tikus";
@@ -85,7 +85,7 @@
   console.log(hewan.include()) // include()) : pencarian, jika ditemukan nilainya true jika tidak nilainya false.
   ```
   
-- Number
+### Number
   - isNan() // Not a Number : mengecek apakah termasuk tipe data number atau tidak.
   - contoh :
     ```
@@ -113,9 +113,45 @@
     Number(pi.toFixed(2)) //output : 3.14, mengubah string menjadi number
     ```
   
-- Math : untuk mengolah data.
-  -contoh :
+### Math : untuk mengolah data.
+  - Properti math :
     ```
-    Math.PI //output : 3.141592653589793.
+    Math.E               // Bilangan Euler
+    Math.LN2             // Log 2 
+    Math.LN10            // Log 10
+    Math.LOG2E           // Log E di Basis 2
+    Math.LOG10E          // Log E di Basis 10
+    Math.PI              // Pi
+    Math.SQRT1_2         // Akar Kuadrat dari 0.5
+    Math.SQRT2           // Akar Kuadrat dari 2
     ```
+  - method math :
+    ```
+    Math.abs(x) // mengubah angka x yang bernilai negatif menjadi positif.
+    Math.pow(x, y) // menghitung hasil dari x pangkat y.
+    Math.sqrt(x) // menghitung akar kuadrat dari x.
+    Math.cbrt(x) // menghitung akar pangkat 3 dari x.
+    Math.round(x) // membulatkan angka desimal x menjadi bilangan bulat.
+    Math.max(x, y, z, ..., n) // mencari angka terbesar di antara parameter x, y, z, ..., n.
+    ```
+
+## Day 3 : Dom
+- DOM (Document Object Model) adalah jembatan supaya bahasa pemrograman dapat berinteraksi dengan html.
+### Selecting Element
+  - getElementById(id) //  untuk mengakses element HTML berdasarkan nilai id-nya.
+  - getElementsByName() // untuk mengakses element HTML berdasarkan nama.
+  - getElementsByTagName(tag) // Untuk mengakses element-element HTML berdasarkan jenis tag-nya.
+  - getElementsByClassName(className) // Untuk mengakses element-element HTML berdasarkan nilai attribute class-nya.
+  - querySelector() // Untuk mengakses element-element HTML berdasarkan CSS Selector-nya HTML.
+### Traversing Elements
+- atas :
+  - parentElement
+  - closest()
+
+- samping :
+  - nextElementSibling
+  - previousElementSibling
+  
+## Day 4 : DOM
+- Manipulating element
   
