@@ -154,8 +154,8 @@
   
 ## Day 4 : DOM
 - Manipulating element
-  - element.innerHTML //sebuah atribut di dalam (objek) elemen HTML yang berisi string HTML (versi 1)
-  - element.innerText // semua element yang dimasukkan akan berupa string (versi 2)
+  - element.innerHTML // untuk mengubah konten HTML di dalam sebuah element. (versi 1)
+  - element.innerText(element.textContent) // mengubah teks dalam sebuah element (versi 2)
   ```
   let app = document.getElementById("app")
   
@@ -207,5 +207,30 @@
    ```
 
 ## Day 5 : DOM - Event and Form
+- event : click, submit, focus, blur, hover, change, scroll.
+- 3 cara memberikan event
+  - HTML attribute
+  - event property
+  - addEventListener() 
+- onclick yaitu HTML Event yang akan terjadi ketika user klik suatu element HTML.
+- contoh :
+  ```
+  <!-- html -->
+  <button id="demo">Click Me!<button>
+  // js
+  let demo = document.getElementById("demo");
+  demo.onclick = showMessage;
 
-  
+  function showMessage() {
+     alert("Hello, World!");
+  }
+  ```
+
+- Form
+- contoh form Sign in
+  ```
+  let loginForm = document.querySelector("#Sign-in")
+  let inputUsername = document.querySelector("#Username")
+  let inputPassword = document.querySelector("#Password")
+   
+   
