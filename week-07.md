@@ -154,4 +154,24 @@
   
 ## Day 4 : DOM
 - Manipulating element
-  - innerHTML // untuk mengatur konten HTML dari suatu elemen.
+  - innerHTML //sebuah atribut di dalam (objek) elemen HTML yang berisi string HTML (versi 1)
+  - innerText // semua element yang dimasukkan akan berupa string (versi 2)
+  ```
+  let app = document.getElementById("app")
+  
+  console.log(app)
+  
+  app.innerHTML = "<h1>Halo</h1>" //output : Halo
+  app.innerText = "<h1>Selamat Datang</h1>" //output : <h1>Selamat Datang</h1>
+  ```
+  
+  - createElement() // membuat element menggunakan js
+  - append() // menyisipkan sebuah element
+  - contoh :
+    ```
+    let p = document.createElement("p")
+    p.innerText = "ini adalah paragraf"
+    
+    app.append(p) //output : ini adalah paragraf
+    ```
+     
