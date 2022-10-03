@@ -74,10 +74,10 @@
   cosole.log(`ini adalah ${hewan}`); // versi 2
   
   console.log(typeof hewan); //properti string => typeof : mengecek tipe data
-  console.log(hewan.length); // length : untuk mengetahui jumlah karakter kata
+  console.log(hewan.length); // length : untuk mengetahui jumlah karakter string
   
-  console.log(hewan.toUpperCase()) // method adalah sebuah fungsi. toUpperCase()=> merapihkan karakter kata dengan huruf kapital.
-  console.log(hewan.toLowerCase()) // toLowerCase() : merapihkan karakter kata dengan huruf kecil.
+  console.log(hewan.toUpperCase()) // method adalah sebuah fungsi. toUpperCase()=> merapihkan string dengan huruf kapital.
+  console.log(hewan.toLowerCase()) // toLowerCase() : merapihkan string dengan huruf kecil.
   
   console.log(hewan.charAt()) // charAt(index) : mengembalikan sebuah karakter berdasarkan pada posisi indexnya. index isi dengan number.
   consolo.log(hewan[1]) // versi 2
@@ -86,5 +86,36 @@
   ```
   
 - Number
-  ```
+  - isNan() // Not a Number : mengecek apakah termasuk tipe data number atau tidak.
+  - contoh :
+    ```
+    isNan(12345) // output : false, (Number)
+    isNaN("banana") // output : true (string)
+    isNaN(true) // output : false, karena true bernilai 1 pada boolean, maka bisa dianggap sebagai number.
+    isNaN(false) // output : false, karena true bernilai 0 pada boolean, maka bisa dianggap sebagai number.
+    isNaN("") // output : false, dianggap bernilai 0, maka bisa dianggap sebagai number.
+    ```
+    
+  - toString : mengubah number menjadi sebuah string.
+  - contoh :
+    ```
+    let angka = 18;
+    angka.toString() //output : 18, versi 1
+    
+    18 + "" //alternatif versi 2
+    ```
+    
+  - toFixed() : mengembalikan sebuah string dan menentukan jumlah angka dibelakang koma.
+  - contoh :
+    ```
+    let pi = 3.1445654
+    pi.toFixed(2) //ouput : '3.14' (string)
+    Number(pi.toFixed(2)) //output : 3.14, mengubah string menjadi number
+    ```
+  
+- Math : untuk mengolah data.
+  -contoh :
+    ```
+    Math.PI //output : 3.141592653589793.
+    ```
   
