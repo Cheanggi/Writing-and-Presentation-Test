@@ -154,4 +154,4 @@
   
 ## Day 4 : DOM
 - Manipulating element
-  
+  - innerHTML // untuk mengatur konten HTML dari suatu elemen.
