@@ -60,4 +60,13 @@
   })
   ```
   
+- Multidimensional Array (array dalam array)
+  ```
+  let arrMulti = [
+    ["nama", "beta"],
+    ["umur", 18],
+    ["kelas", "JS"],
+  ]
   
+  console.log(arrMulti[0]baris[1]kolom); //output : beta
+  ```
