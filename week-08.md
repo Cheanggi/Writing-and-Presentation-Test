@@ -19,7 +19,7 @@
 - Array.unshift :menambahkan data baru diawal ke dalam array.
 - Array.pop : menghapus data terakhir dalam array.
 - Array.shift : menghapus data awal dalam array.
-- Array.splice: mengubah konten yang ada di dalam array dengan menghapus atau menggantinya. (menghapus data tengah)
+- Array.splice: mengubah konten yang ada di dalam array dengan menghapus atau menggantinya.
 - Arraty.slice() : mengambil dengan cara mengcopy data array.
   ```
   let buah = ["salak", "apel", "anggur"]
@@ -28,4 +28,36 @@
   buah.pop(); //output: ["duku", "salak", "apel", "anggur", "nanas"]
   buah.shift(); //output: ["salak", "apel", "anggur", "nanas"]
   ```
-- 
+- cara kedua mengubah data array.
+  ```
+  let hewan = ["kuda", "gajah"]
+  hewan[0] = "semut"
+  console.log(hewan) //output : ["semut", "gajah"]
+  ```
+  
+- Array loop (for) dan (for..of..)
+  ```
+  for(let i = 0; i < buah.length; i++) {
+    console.log(buah[i]) //ouput : salak, apel, anggur.
+  }
+  
+  for(let i = buah.length - 1; i > 0; i--) {
+    console.log(buah[i]) //ouput : anggur, apel, salak.
+  }
+  
+  for(let arrBuah of buah) {
+    console.log(arrBuah); /output : salak, apel, anggur.
+  }
+  ```
+- forEach dan map (mengembalikan nilai dalam bentuk array)
+  ```
+  namaArray.forEach((item, index) => {
+    console.log(index, item)
+  })
+  
+  namaArray.map((item, index) => {
+    console.log(item);
+  })
+  ```
+  
+  
