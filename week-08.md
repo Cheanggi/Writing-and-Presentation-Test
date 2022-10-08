@@ -168,3 +168,19 @@
    ```
    [{}, {}, {}]
    
+   (perulangan array)
+   let newVariable = namaVariable.map((x) => { //x : contoh penamaan (bebas).
+      console.log(x.properti); //output: value properti.
+   (menambahkan properti)
+      x.newProperti = "value";
+      return x;
+   })
+   
+   (memanggil index array dalam objek)
+   console.log(namaVariable[index]) //output: properti dan value
+   console.log(namaVariable[index].properti) //output: value properti
+   ```
+
+## Day 3 : Js Intermediate-Recursive dan Modules
+- Modules adalah cara untuk memisahkan kode ke file yang berbeda.
+- Recursive adalah function yang memanggil dirinya sendiri sampai kondisi tertentu.
