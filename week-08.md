@@ -182,5 +182,66 @@
    ```
 
 ## Day 3 : Js Intermediate-Recursive dan Modules
-- Modules adalah cara untuk memisahkan kode ke file yang berbeda.
 - Recursive adalah function yang memanggil dirinya sendiri sampai kondisi tertentu.
+- Struktur dasar function rekursif adalah sebagai berikut:
+  ```
+  function namaFuncRekursif() {
+    if (condition) {
+      // Base case
+    } else {
+      // Recursion call
+      namaFuncRekursif();
+    }
+  }
+  ```
+
+- Modules adalah cara untuk memisahkan kode ke file yang berbeda.
+- Export digunakan untuk meng-export variabel pada file JavaScript. Variabel (string, object, array, hingga function).
+- contoh export pada objek Js :
+  ```
+  export let orang = {
+    nama: "Radit",
+    umur: 25,
+    alamat: "Jl. Dukuh Raya",
+  };
+  ```
+- import berfungsi untuk menggunakan variabel yang sudah di-export dari module lainnya.
+- contoh import variabel :
+  ```
+  import { data } from "./namaModul.js";
+  ```
+- Export As dan Import As : memberi alias (nama pengganti) pada nama data yang ingin kita export maupun import.
+  ```
+  export namaVariabelLama as namaVariabelBaru;
+  import { namaVariabelLama as namaVariabelBaru } from "./namaModul.js";
+  ```
+- export default digunakan untuk membuat salah satu variabel menjadi data utama yang akan di-export pada sebuah module.
+  ```
+  export default data;
+  import data from "./namaModul.js";
+  ```
+  
+## Day 4 : JavaScript Intermediate - Asynchronous - Introduction dan Promise
+- Synchronous adalah saat kita mengeksekusi perintah satu persatu dan berurutan.
+- Asynchronous berfungsi untuk memproses perintah lain sambil menunggu suatu proses lain yang sedang berlangsung.
+- untuk membuat proses asynchronous ada 2 cara:
+  - setTimeout(function, milliseconds) // Pemanggilan hanya dilakukan 1 kali.
+  - setInterval(function, milliseconds) // Pemanggilan dilakukan berkali-kali sesuai interval waktu yang ditentukan.
+
+- promise
+- contoh penggunaan promise
+```
+  let newPromise = new Promise((resolve, reject) => {
+  if (true) {
+    // apa yang dilakukan jika promise fulfilled
+    resolve("Berhasil");
+  } else {
+    // apa yang dilakukan jika promise rejected
+    reject("Gagal");
+  }
+});
+```
+  - resolve(), jika proses berhasil atau fullfilled.
+  - reject(), jika proses gagal atau rejected.
+
+## Day 5 : Js Intermediate-Web Storage
