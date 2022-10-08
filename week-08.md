@@ -245,3 +245,35 @@
   - reject(), jika proses gagal atau rejected.
 
 ## Day 5 : Js Intermediate-Web Storage
+- Untuk menyimpan data pada local storage menggunakan method setItem() yang membutuhkan 2 parameter.
+  ```
+  localStorage.setItem('key', value);
+  ```
+- Untuk mengambil data yang telah tersimpan pada local storage menggunakan method getItem() yang membutuhkan 1 parameter.
+  ```
+  localStorage.getItem('key');
+  ```
+- Untuk menghapus data yang telah tersimpan pada local storage menggunakan method removeItem() yang membutuhkan 1 parameter.
+  ```
+  // menghapus key tertentu
+  localStorage.removeItem("key");
+
+  // menghapus semua key
+  localStorage.clear();
+  ```
+-  untuk menyimpan data pada session storage
+  ```
+  sessionStorage.setItem('key', value);
+  ```
+- untuk mengambil dan mengolah data dari session storage.
+  ```
+  sessionStorage.getItem('key');
+  ```
+- untuk menghapus data dari session storage.
+  ```
+  // menghapus session storage satu persatu berdasarkan key
+  sessionStorage.removeItem('key');
+
+  // menghapus seluruh session storage sekaligus
+  sessionStorage.clear();
+  ```
