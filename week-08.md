@@ -73,3 +73,44 @@
 
 ## Day 2 : JS Intermediate Object
 - object adalah sebuah tipe data pada variabel yang menyimpan properti dan fungsi (method)
+- object dapat menyimpan banyak data.
+  ```
+  let siswa = {
+  nama: "sarah",
+  umur: 18,
+  hobi: "menyanyi",
+  "nomor handphone": 081278456199, // properti yang menggunakan spasi bisa ditambahkan string ("").
+  };
+  
+  console.log(siswa); //output: {nama: 'sarah', umur: 18, hobi: 'menyanyi', nomor handphone: 081278456199}
+  ```
+- cara akses objek ada 2 :
+  - . dot notation // tidak bisa mengeksekusi properti yang menggunakan spasi
+    ```
+    let siswa = {
+    nama: "sarah",
+    umur: 18,
+    hobi: "menyanyi",
+    "nomor handphone": 081278456199,
+    };
+    
+    console.log(siswa.nama); //output: sarah
+    ```
+  - [] bracket notation // bisa mengeksekusi properti yang menggunakan spasi
+    ```
+    let siswa = {
+    nama: "sarah",
+    umur: 18,
+    hobi: "menyanyi",
+    "nomor handphone": 081278456199,
+    };
+    
+    console.log(siswa["hobi"]); //output: menyanyi
+    ```
+- cara membuat properti baru.
+  ```
+  let buku = {
+    judul: "hujan"
+    penulis: "teresia",
+    "jumlah halaman": 200,
+  };
