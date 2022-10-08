@@ -70,3 +70,6 @@
   
   console.log(arrMulti[0]baris[1]kolom); //output : beta
   ```
+
+## Day 2 : JS Intermediate Object
+- object adalah sebuah tipe data pada variabel yang menyimpan properti dan fungsi (method)
