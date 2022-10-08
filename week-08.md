@@ -76,22 +76,23 @@
 - object dapat menyimpan banyak data.
   ```
   let siswa = {
-  nama: "sarah",
-  umur: 18,
-  hobi: "menyanyi",
-  "nomor handphone": 081278456199, // properti yang menggunakan spasi bisa ditambahkan string ("").
+    nama: "sarah",
+    umur: 18,
+    hobi: "menyanyi",
+    "nomor handphone": 081278456199, // properti yang menggunakan spasi bisa ditambahkan string ("").
   };
   
   console.log(siswa); //output: {nama: 'sarah', umur: 18, hobi: 'menyanyi', nomor handphone: 081278456199}
   ```
+  
 - cara akses objek ada 2 :
   - . dot notation // tidak bisa mengeksekusi properti yang menggunakan spasi
     ```
     let siswa = {
-    nama: "sarah",
-    umur: 18,
-    hobi: "menyanyi",
-    "nomor handphone": 081278456199,
+      nama: "sarah",
+      umur: 18,
+      hobi: "menyanyi",
+      "nomor handphone": 081278456199,
     };
     
     console.log(siswa.nama); //output: sarah
@@ -99,18 +100,71 @@
   - [] bracket notation // bisa mengeksekusi properti yang menggunakan spasi
     ```
     let siswa = {
-    nama: "sarah",
-    umur: 18,
-    hobi: "menyanyi",
-    "nomor handphone": 081278456199,
+      nama: "sarah",
+      umur: 18,
+      hobi: "menyanyi",
+      "nomor handphone": 081278456199,
     };
     
     console.log(siswa["hobi"]); //output: menyanyi
     ```
+    
 - cara membuat properti baru.
   ```
   let buku = {
-    judul: "hujan"
+    judul: "hujan",
     penulis: "teresia",
     "jumlah halaman": 200,
   };
+  
+  buku.tahun = 2020; // penambahan properti: dengan memanggil objek ditambah dot notation ditambah nama properti yang baru.
+  buku["penerbit"] = "gramedia"; // cara kedua penambahan properti dengan bracket ([""])
+  console.log(buku); // output: {judul: 'hujan', penulis: 'teresia', jumlah halaman: 200, tahun: 2020, penerbit: 'gramedia'}
+  ```
+  
+- cara mengganti value dari objek
+  ```
+  let hewan = {
+    nama: "kucing",
+    kaki: 4,
+    warna: "putih",
+  };
+  hewan.warna = "coklat";
+  hewan["warna"] = "coklat";
+  console.log(hewan); //output: {nama: 'kucing', kaki: 4, warna: 'coklat'}
+  ```
+ 
+- cara menghapus isi objek
+  ```
+  let hewan = {
+    nama: "kucing",
+    kaki: 4,
+    warna: "putih",
+  };
+  delete hewan.warna;
+  console.log(hewan); //output: {nama: 'kucing', kaki: 4}
+  ```
+  
+- method
+  ```
+  console.log(Object.keys(namaObject)); //output : properti objek
+  console.log(Object.value(namaObject)); //output: value objek
+  ```
+  
+- nested objek (objek di dalam objek)
+  ```
+  console.log(namaObject.properti1.properti2.properti3); //output: properti objek yang diminta.
+  ```
+  
+- loop objek
+  - for in
+    ```
+    for (let key in namaObjek) { //key = properti
+      console.log(namaObjek[key]); //output: value dari properti objek
+    }
+    ```
+    
+ - Array objek
+   ```
+   [{}, {}, {}]
+   
