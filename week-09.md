@@ -78,3 +78,5 @@
   9. jika sudah aman, commit lalu push branch ke github.
   10. lakukan pull request untuk merge ke branch dev
   11. tunggu pull request di acc oleh team lead
+
+## Day 3 : Responsive Web Design dan Bootstrap 5
