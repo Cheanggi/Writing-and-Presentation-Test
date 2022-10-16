@@ -4,6 +4,7 @@
 - await: menunda eksekusi hingga proses asynchronous selesai.
 -  cara membuat async await :
   - buat async function
+  - try catch()
     ```
     let nonton = (kondisi) => {
       return new promise((resolve, reject) => {
