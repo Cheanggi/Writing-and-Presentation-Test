@@ -54,3 +54,7 @@
     ```
     
 ## Day 2 : Git dan Github Lanjutan
+- membuat satu repo per kelompok.
+- membuat sebuah branch baru dengan nama dev.
+- invite member
+- akses dibuat owner
