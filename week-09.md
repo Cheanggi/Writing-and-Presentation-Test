@@ -54,7 +54,27 @@
     ```
     
 ## Day 2 : Git dan Github Lanjutan
-- membuat satu repo per kelompok.
-- membuat sebuah branch baru dengan nama dev.
-- invite member
-- akses dibuat owner
+- Tahapan yang dilakukan oleh team lead.
+  1. team lead membuat repo untuk project yang akan dibuat.
+  2. invite anggota tim dan jadikan akses sebagai owner.
+  3. repo dibuat public, dan ceklis README.
+  4. buat branch bernama dev
+  
+- Mengecek pull request
+  - setiap ada pull request, team lead akan mengeceknya.
+  - jika pull request belum sesuai, bisa dikasih komen untuk anggota yang melakukan pull request tersebut.
+  - jika sudah selesai, lakukan merge.
+   
+### Kolaborasi
+- Tahapan yang dilakukan anggota
+  1. masing-masing anggota lakukan clone pada repo yang sudah dibuat(1x)
+  2. bagi tugas pada masing-masing anggota kelompok 
+  3. sebelum ngoding lakukan git pull untuk update kode terbaru
+  4. anggota membuat branch dari dev
+  5. melakukan pengerjaan di dalam branch yang sudah dibuat.
+  6. jika fitur sudah selesai/butuh kode dari dev, lakukan commit seperti biasa
+  7. sebelum push, lakukan git merge dev untuk menghindari conflict di github.
+  8. jika ada conflict, bereskan semuanya.
+  9. jika sudah aman, commit lalu push branch ke github.
+  10. lakukan pull request untuk merge ke branch dev
+  11. tunggu pull request di acc oleh team lead
