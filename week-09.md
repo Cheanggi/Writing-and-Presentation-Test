@@ -91,4 +91,8 @@
   - Absolute lengths : px
   - Relative lengths : em, rem, %, vw, vh
   ```
-  
+  font-size untuk html : 16px
+  font-size: 2rem // 32px
+  font-size: 2em // dikalikan dengan parent terdekat.
+  ```
+- 
