@@ -87,6 +87,8 @@
   <meta name="viewport" content="width=device-width; initial-scale=1.0">
   ```
 - **max-widht** (css): teknik kedua untuk membuat responsive web.
-- contoh mengatur gambar agar lebih responsive
-- Css unit :satuan ukur yang bersifat relative. (em, rem, %, vw, 
-- 
+- Css unit :satuan ukur yang bersifat relative.
+  - Absolute lengths : px
+  - Relative lengths : em, rem, %, vw, vh
+  ```
+  
