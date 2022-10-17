@@ -80,3 +80,13 @@
   11. tunggu pull request di acc oleh team lead
 
 ## Day 3 : Responsive Web Design dan Bootstrap 5
+- Responsive web design bertujuan membuat desain website dapat diakses dalam device apapun.
+- Device yang umum digunakan seperti laptop/PC, smartphone dan tablet.
+- viewport adalah area website yang dapat diakses oleh user.
+  ```
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  ```
+- **max-widht** (css): teknik kedua untuk membuat responsive web.
+- contoh mengatur gambar agar lebih responsive
+- Css unit :satuan ukur yang bersifat relative. (em, rem, %, vw, 
+- 
