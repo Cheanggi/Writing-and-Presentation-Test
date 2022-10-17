@@ -95,4 +95,50 @@
   font-size: 2rem // 32px
   font-size: 2em // dikalikan dengan parent terdekat.
   ```
-- 
+- Media query memberikan kemampuan menggunakan kode css yang sesuai dengan kondisi yang ditentukan. 
+- 2 jenis media query : max-widht dan min-widht.
+  ```
+  @media screen and (min-widht: your pixel) {
+  @media screen and (max-widht: your pixel) {
+  ```
+- properti flexbox(parent)
+  - flex-container
+  - flex-direction
+  - flex-wrap
+  - flex-flow
+  - justify-content
+  - align item
+  - align-content
+  - gap, row-gap, column-gap
+
+- properti flexbox(child)
+  - flex-item
+  - flex-grow
+  - flex-shrink
+  - flex-basis
+  - flex
+  - align-self
+
+- Properti display pada Grid Container (properti parent) harus bernilai grid, contoh:
+  ```
+  .container {
+    display: grid;
+  }
+  ```
+- Grid juga tersusun dari komponen berikut:
+  - Grid Track merupakan baris atau kolom pada Grid.
+  - Grid Line merupakan garis yang membatasi setiap Grid Track.
+  - Grid Cell merupakan sel atau bagian terkecil dari Grid.
+- Grid item (properti child)
+  - contoh : Buat "item1" dimulai pada kolom 1 dan diakhiri sebelum kolom 5
+    ```
+    .item1 {
+      grid-column: 1 / 5;
+    }
+    ````
+
+### Bootstrap 5
+- Bootstrap adalah framework web development berbasis HTML, CSS, dan JavaScript yang dirancang untuk mempercepat proses pengembangan web responsive dan mobile-first (memprioritaskan perangkat seluler).
+- Developer memilih penggunaan Bootstrap dengan source code, karena lebih bebas menyesuaikan gaya dengan proyek yang dikerjakan.
+- Sistem grid Bootstrap memiliki dua kelas container untuk mempermudah penanganan proyek berbasis desktop dan seluler: 
+  - fixed container (.container) dan fluid container (.container-fluid).
