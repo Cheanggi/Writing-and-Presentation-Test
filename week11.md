@@ -35,4 +35,9 @@
 - dalam event tidak harus ada state.
 - cara handle event dapat menerima parameter menggunakan call back : {() => handleEvent}
 - menambahkan argumen pada function yang ada dalam event dengan menjadikan call back ditambah argumen : {() => handleEvent("argumen")}
-- 
+- solusi loop data array lalu ditampilkan
+  ```
+  {varaibel.map((item, index) => (
+    <element atau component yang dibutuhkan/>
+  ))}
+  ```
