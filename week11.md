@@ -31,3 +31,8 @@
 - cara kedua untuk menggunakan bootstrap dengan menginstall bootstrap lewat npm : npm install bootstrap.
 
 ## Day 3 : React Basic
+- handle event : onClick={handleClick}, onMouseOver(hover)={handleMousOver}
+- dalam event tidak harus ada state.
+- cara handle event dapat menerima parameter menggunakan call back : {() => handleEvent}
+- menambahkan argumen pada function yang ada dalam event dengan menjadikan call back ditambah argumen : {() => handleEvent("argumen")}
+- 
