@@ -41,3 +41,37 @@
     <element atau component yang dibutuhkan/>
   ))}
   ```
+### Conditional rendering
+- Gunakan JavaScript operator seperti if atau operator bersyarat untuk membuat representasi elemen dari state saat ini, dan React akan memperbarui UI sesuai dengan state tersebut.
+- contoh :
+  ```
+  function UserGreeting(props) {
+    return <h1>Welcome back!</h1>;
+  }
+
+  function GuestGreeting(props) {
+    return <h1>Please sign up.</h1>;
+  }
+  
+  - membuat komponen Greeting yang menampilkan salah satu dari dua komponen diatas berdasarkan pada apakah pengguna telah login:
+  function Greeting(props) {
+    const isLoggedIn = props.isLoggedIn;
+    if (isLoggedIn) {
+      return <UserGreeting />;
+    }
+    return <GuestGreeting />;
+  }
+
+  ReactDOM.render(
+    // Try changing to isLoggedIn={true}:
+    <Greeting isLoggedIn={false} />,
+    document.getElementById('root')
+  );
+  ```
+  
+## Day 4 : React Basic-Form
+- Di React, state yang dapat berubah biasanya disimpan pada properti dari komponen, dan hanya akan diubah menggunakan setState().
+- komponen React yang me-render sebuah form juga mengontrol apa yang terjadi dalam form tersebut pada masukan pengguna selanjutnya.
+- Di React, <textarea> menggunakan atribut value. sebuah form yang menggunakan <textarea> dapat ditulis dengan cara yang sangat mirip dengan sebuah form yang menggunakan masukan satu baris.
+- Di React, menggunakan atribut value di tag select.
+- membutuhkan penanganan banyak elemen input terkontrol, dapat menambahkan atribut name pada setiap elemen dan membiarkan fungsi handler memilih apa yang harus dilakukan berdasarkan nilai dari event.target.name.
