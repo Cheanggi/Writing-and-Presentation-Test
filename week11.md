@@ -77,3 +77,11 @@
 - membutuhkan penanganan banyak elemen input terkontrol, dapat menambahkan atribut name pada setiap elemen dan membiarkan fungsi handler memilih apa yang harus dilakukan berdasarkan nilai dari event.target.name.
 
 ## Day 5 : React Lanjutan- lifecycle method and hooks
+- ingin mengatur timer setiap kali Clock di-render di DOM untuk pertama kalinya disebut “mounting” di React. (componentDidMount())
+- ingin menghapus timer setiap kali DOM yang diproduksi oleh Clock dihapus disebut “unmounting” di React. (componentWillUnmount())
+- ingin menggunakan sebagai kesempatan untuk beroperasi pada DOM ketika komponen diperbarui. (componentDidUpdate())
+- Hooks adalah untuk memudahkan penggunaan functional components agar bisa menggunakan state dan lifecycle lainnya.
+- Hooks yang sering digunakan : useState dan useEffect.
+- useState di panggil dalam function component untuk menambahkan suatu state lokal.
+- useEffect merupakan hooks yang bisa digunakan untuk menggunakan lifecycle pada functional component dengan mudah.
+- penggunaan useEffect dimasukkan sebelum melakukan render dan biasanya diletakkan dibawah useState.
