@@ -75,3 +75,5 @@
 - Di React, <textarea> menggunakan atribut value. sebuah form yang menggunakan <textarea> dapat ditulis dengan cara yang sangat mirip dengan sebuah form yang menggunakan masukan satu baris.
 - Di React, menggunakan atribut value di tag select.
 - membutuhkan penanganan banyak elemen input terkontrol, dapat menambahkan atribut name pada setiap elemen dan membiarkan fungsi handler memilih apa yang harus dilakukan berdasarkan nilai dari event.target.name.
+
+## Day 5 : React Lanjutan- lifecycle method and hooks
