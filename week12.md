@@ -12,9 +12,9 @@
 
 ## Day 2 : React Router 6
 - cara install react router
-  ```
- npm i react-router-dom
- ```
+   ```
+   npm i react-router-dom
+   ```
 - konfigurasi router untuk web dapat menggunakan <BrowserRouter> dan untuk mobile dapat menggunakan <NativeRouter>.
 - Mendefinisikan route mudah untuk mendefinisikan satu komponen route untuk setiap route dalam aplikasi dan kemudian menempatkan semua komponen route tersebut dalam satu komponen route.
 - contoh :
@@ -33,10 +33,23 @@
 - Jika memutuskan ingin menggunakan useRoutes, kaitkan semua props yang biasanya diberikan ke komponen Route hanya diteruskan sebagai pasangan kunci/nilai dari suatu objek.
 - Parameter pencarian adalah semua parameter yang muncul setelah ? di URL (?name=Kyle&age=27)
 
-## Day 3 : State Management React-Redux
+## Day 3 & 4 : State Management React-Redux
 - Redux berfungsi untuk melakukan perubahan state yang dibutuhkan oleh setiap fungsional yang ada di suatu aplikasi.
--  Redux memiliki tiga komponen utama yaitu action, reducer, dan store.
+- react redux adalah library untuk menghubungkan react dan reduxnya.
+- Redux memiliki tiga komponen utama yaitu action, reducer, dan store.
 - action : cara agar dapat mengirim data dari aplikasi ke Redux Store. Data tersebut dapat berasal dari interaksi pengguna, panggilan API (API request), atau bisa juga pengiriman formulir. 
 - Action harus berisikan type property dan kemudian payload atau muatan yang lain pun dapat disimpan.
 - Reducer berfungsi untuk melakukan tindakan,dan mengembalikan status baru (new state).
+- Ada 2 parameter wajib dari reducer, yaitu state dan action.
 - Store berfungsi untuk menyimpan status aplikasi. dapat mengakses status yang disimpan, mengupdate status, dan mendaftarkan atau membatalkan pendaftaran listener melalui metode helper.
+
+## Day 5 : State Management Async Actions with Redux Thunk and Middleware
+- Redux Thunk adalah middleware yang memungkinkan untuk memanggil pembuat aksi yang mengembalikan fungsi sebagai ganti objek aksi.
+- Fungsi itu menerima metode pengiriman penyimpanan, yang kemudian digunakan untuk mengirim aksi sinkron di dalam isi fungsi setelah operasi asinkron selesai.
+- cara menambahkan redux thunk menggunakan terminal
+  ```
+  npm install redux-thunk@version
+  ```
+- dispatch : metode yang digunakan untuk mengirimkan tindakan, yang dapat diterima oleh reduksi.
+- getState : memberikan akses untuk menyimpan di dalam fungsi thunk.
+- gunakan useDispatch untuk mengirim tindakan dan useSelector untuk mengakses data di store.
